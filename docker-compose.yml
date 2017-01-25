@@ -3,7 +3,7 @@ version: '2'
 services:
   koding:
     image: koding/koding
-    command: --version master
+    command: --version latest-deployment
     env_file: .env-docker-compose
     ports:
       - "8090:8090"
